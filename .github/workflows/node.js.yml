@@ -21,4 +21,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - run: npm i -g pm2
     - run: pm2 restart server
